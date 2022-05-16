@@ -1,0 +1,59 @@
+.videobox{
+    size: 50px;
+    width: 25%;
+}
+.inner{
+    margin: 3% 3% 3% 3%;
+    display: flex;
+    flex-direction: column;
+    background-color: #212121;
+    color: white;
+    height: 350px;
+    cursor: pointer;
+
+}
+
+.thumbnail{
+    object-fit: cover;
+    height: 50%;
+}
+
+.details{
+    padding: 4% 4% 4% 4%;
+}
+
+.title{
+    font-weight: bold;
+    text-overflow: ellipsis; 
+    font-size: 1.2rem;
+    line-height: 2rem;
+    font-weight: 500;
+    max-height: 4rem;
+    overflow: hidden;
+    display: block;
+    -webkit-line-clamp: 2;
+    /* display: box; */
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+}
+
+.description{
+    color: grey;
+    align-items: center;
+    font-size: 1rem;
+    line-height: 1.3rem;
+    font-weight: 500;
+    max-height: 4rem;
+    overflow: hidden;
+    display: block;
+    -webkit-line-clamp: 3;
+    /* display: box; */
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+    white-space: normal;
+   
+
+
+}

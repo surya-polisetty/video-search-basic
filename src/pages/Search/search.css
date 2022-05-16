@@ -1,0 +1,19 @@
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #181818;
+    /* justify-content: space-between; */
+    justify-content:flex-start;
+    padding: 4% 4% 4% 4%;
+  }
+
+  ::-webkit-scrollbar {
+    width: 5px;
+    color: black;
+  }
+  ::-webkit-scrollbar-track {
+    background-color: #212121;
+  }
+  ::-webkit-scrollbar-thumb {
+    background-color: rgb(184, 184, 184);
+  }
